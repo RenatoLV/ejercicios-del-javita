@@ -1,0 +1,21 @@
+/*
+ * @author renat
+ */
+import java.util.Scanner;
+public class numeronegativo {
+  public static void main(String[] args){
+      int salir=0;
+      do{
+    System.out.println("ingrese un numero");
+    Scanner n = new Scanner(System.in);
+    int nega = n.nextInt();
+    if(nega>0){System.out.println("El numero: "+nega+" Es positivo ");
+    salir=1;
+    }else if(nega==0){System.out.println("el 0 es un numero neutro ingresa otro");
+    }
+      
+    else{System.out.println(nega+" es negativo ingresa otro");
+        }
+    }while(salir==0);
+}
+}

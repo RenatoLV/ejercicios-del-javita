@@ -1,0 +1,14 @@
+/**
+ * @author renat
+ */
+import java.util.Scanner;
+public class TransformadorGRADOS {
+    
+    public static void main(String[] args){
+        Scanner cel = new Scanner(System.in);
+        System.out.println("Ingrese la temperatura celcius a cambiar farenheim: ");
+        float celcius = cel.nextFloat();
+        float Faren=(celcius*9/5+32);
+        System.out.println("la temperatura en farenheim es de :"+Faren);
+    }
+}

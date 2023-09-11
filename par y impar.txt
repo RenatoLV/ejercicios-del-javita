@@ -1,0 +1,14 @@
+import java.util.Scanner;
+/*
+ * @author renat
+ */
+public class parimpar {
+    public static void main(String[] args) {
+         Scanner num = new Scanner(System.in);
+         System.out.println("Ingrese el numero a comprobar");
+         int n1 = num.nextInt();
+         if (n1 %2 ==0){System.out.println("el numero es par");
+         }else{System.out.println("el numero es impar");
+         }
+    }
+}

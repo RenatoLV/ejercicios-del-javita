@@ -1,0 +1,21 @@
+/*
+ * @author renat
+ */
+import java.util.Scanner;
+public class TablaMultiplicar {
+    public static void main(String[] args){
+        int f =1;
+        int res=0;
+        Scanner n1 = new Scanner(System.in);
+        System.out.println("Ingrese el numero del cual desea ver la tabla");
+        int x = n1.nextInt();
+        System.out.println("hasta que numero deseas ver la tabla");
+         int m = n1.nextInt();
+         
+         do{
+             res = x*f;
+             System.out.println(+x+" x "+f+" ="+res);
+             f++;
+         }while(f<=m);
+    }
+}

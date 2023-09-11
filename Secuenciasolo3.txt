@@ -1,0 +1,17 @@
+/*
+ * @author renat
+ */
+import java.util.Scanner;
+public class SecuenciaSolo3 {
+    public static void main(String[] args){
+        Scanner n1 = new Scanner(System.in);
+        System.out.println("Escriba el numero a llegar con multiplos de 3");
+        int el =0;
+        int pepe = n1.nextInt();
+        do{
+            if(el % 3 ==0){System.out.println(" :"+el);
+            }
+            el++;
+        }while(el<=pepe);
+    }
+}
